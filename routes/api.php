@@ -1,0 +1,6 @@
+Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register']);
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register']);
