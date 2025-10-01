@@ -8,5 +8,5 @@ Route::get('/', function () {
 
 Route::get('/prayer-times', [\App\Http\Controllers\PrayerTimeController::class, 'index']);
 Route::get('/places', [\App\Http\Controllers\PlaceController::class, 'index']);
-Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register']);
+Route::post('/inscrire', [\App\Http\Controllers\AuthController::class, 'register']);
 
